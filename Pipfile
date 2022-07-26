@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+teleflask = "==2.0.0.dev23"
+aiogram = "*"
+funcy = "*"
+aiohttp = "*"
+requests = "*"
+python-telegram-bot = "*"
+python-magic = "*"
+python-magic-bin = "*"
+django = "*"
+django-colorfield = "*"
+pillow = "*"
+faker = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
